@@ -1,5 +1,5 @@
 const weatherGet = async x => {        
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${x}&appid=8a19ce3a9942bc80349edab0f697bea0&units=imperial`
+    const url = ``
     const response = await fetch(url)
     const weather = await response.json()
 
