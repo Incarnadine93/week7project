@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(82, 82, 82);
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    font-weight: 1000;
+}
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    color: grey;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    text-shadow: 0 0 2rem white;
+    border-radius: 2rem;
+  }

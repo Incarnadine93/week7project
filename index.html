@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="static/main.css">
+  <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="video"></div>
+    <!-- <div id='allbody' class="app" style="background-image: url(background.gif);"></div> -->
+    <!-- <div id="hero">
+        <video loop muted autoplay controls>
+            <source id="video" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="card" style="width:22rem;">
+        <br>
+        <h1 id="name"></h1>
+        <div>
+            <p id="lon"></p>
+            <p id="lat"></p>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <p id="current"></p>
+                <p id="high"></p>
+                <p id="low"></p>
+            </div>
+            <div class="col">
+                <p id="humidity"></p>
+                <p id="wind"></p>
+                <p id="timezone"></p>
+                <!-- <p id="sunrise"></p>
+                <p id="sunset"></p> -->
+            </div>
+        </div>
+        <div class="row">
+            <input id="weatherInput" style="background-color: transparent; border-radius: 5px;" placeholder="City">
+            <button  id="weatherButton" style="background-color: transparent; border-radius: 5px;" class="btn-search">Search</button>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
